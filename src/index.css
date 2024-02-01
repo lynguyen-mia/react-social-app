@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navBar {
+  background-color: #5f3dc4;
+}
+
+#navBar a {
+  text-decoration: none;
+  color: white;
+}
+
+#navBar .active {
+  color: #f08c00;
+}
+
+.invalid {
+  background-color: rgb(243, 157, 157);
+  border-color: rgb(243, 157, 157);
+}
+
+#single-post {
+  max-width: 550px;
+  border: 1.5px solid #5f3dc4;
+  border-radius: 10px;
+}
+
+#single-post a,
+#single-post .action-btn {
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+}
+
+#single-post h2 {
+  color: #5f3dc4;
+}
+
+.hr-lines {
+  width: 500px;
+  height: 1.5px;
+  background-color: black;
+  margin: 20px 0;
+}

@@ -3,6 +3,7 @@ import convertDate from "../utils/convert-date";
 
 const PostDetail = () => {
   const post = useLoaderData();
+  console.log(`https://node-social-nbqx.onrender.com/${post.image}`);
   return (
     <div className="container mt-5 text-center">
       {!post && <div>No post found.</div>}

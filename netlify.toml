@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/public/*"
-  to = "https://node-social-nbqx.onrender.com/:splat"
+  to = "https://node-social-nbqx.onrender.com/public/:splat"
   status = 200
   force = true

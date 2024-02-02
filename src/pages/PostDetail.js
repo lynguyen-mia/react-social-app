@@ -18,7 +18,11 @@ const PostDetail = () => {
             <div className="hr-lines"></div>
           </div>
 
-          <img src={`/aaaaa`} alt={post.title} className="w-50 mb-3" />
+          <img
+            src={`https://node-social-nbqx.onrender.com/${post.image}`}
+            alt={post.title}
+            className="w-50 mb-3"
+          />
 
           <div>{post.content}</div>
         </div>

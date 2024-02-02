@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/public/images/:image"
-  to = "https://node-social-nbqx.onrender.com/public/images/:image"
+  from = "/public/images/*"
+  to = "https://node-social-nbqx.onrender.com/:splat"
   status = 200
   force = true
